@@ -15,4 +15,4 @@ npm run dev
 #MDP: nFyxtiwx
 #user : houssam-eddine.hachoumi
 
-#pour authentifier Monsieur, j'ai crée une route qui s'appelle '/welcome', par laquelle vous pouvez créer n'importe quel admin...................................desolé j'ai oublier de mentionné ça.
+#pour authentifier Monsieur, j'ai crée une route qui s'appelle '/welcome', par laquelle vous pouvez créer n'importe quel admin et se connecter sur l'app..........desolé j'ai oublier de mentionné ça.
