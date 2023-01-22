@@ -132,13 +132,13 @@ class Comment
     #[Groups('comment')]
     public function getUserId(): ?int
     {
-        return $this->user?->getId();
+        return $this->parent?->getId();
     }
 
     #[Groups('comment')]
     public function getUsername(): ?string
     {
-        return $this->user?->getUsername();
+        return $this->parent?->getUsername();
     }
 
     #[Groups('comment')]
@@ -149,6 +149,6 @@ class Comment
 
     public function __toString(): string
     {
-        return "{$this->user->getUsername()} {$this->createdAt->format('d/m/y à H:i:s')}";
+        return "{$this->parent->getUsername()} {$this->createdAt->format('d/m/y à H:i:s')}";
     }
 }
